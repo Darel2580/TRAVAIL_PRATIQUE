@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projet_vehicules.Modifier">
+   <children>
+      <Button fx:id="modification" layoutX="416.0" layoutY="305.0" mnemonicParsing="false" onAction="#modifier_vehicule" text="modifier" />
+      <Label fx:id="id" layoutX="43.0" layoutY="54.0" text="N°IMMATRICULATION :" />
+      <Label fx:id="marque" layoutX="48.0" layoutY="109.0" text="MARQUE  :" />
+      <Label fx:id="type" layoutX="51.0" layoutY="210.0" text="TYPE :" />
+      <Label fx:id="modele" layoutX="48.0" layoutY="156.0" text="MODELE  :" />
+      <TextField fx:id="Type_vehicule" layoutX="225.0" layoutY="195.0" />
+      <TextField fx:id="ID_vehicule" layoutX="226.0" layoutY="49.0" />
+      <TextField fx:id="Marque_vehicule" layoutX="223.0" layoutY="99.0" />
+      <TextField fx:id="modele_vehicule" layoutX="225.0" layoutY="149.0" />
+      <Label fx:id="annee" layoutX="51.0" layoutY="247.0" text="ANNEE DE FABRICATION :" />
+      <TextField fx:id="annee_vehicule" layoutX="236.0" layoutY="242.0" />
+   </children>
+</Pane>
